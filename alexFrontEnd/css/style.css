@@ -1,0 +1,842 @@
+body {
+  margin: 0px;
+  color: #26b7b2;
+  background: #1a6c66;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+.appalexsh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containersh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 411px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  position: fixed;
+  background: #0f6862;
+  width: 100%;
+  box-shadow: 0px 1px 20px 0px #1f504d;
+  max-width: 411px;
+  z-index: 9;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #26b7b2;
+  margin: 0px 10px;
+}
+
+.rightsh {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.rightsh button {
+  margin: 0px 10px;
+  background: #158587;
+  border: 2px solid #26b7b2;
+  color: #b5e6ff;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 0px 10px;
+  border-radius: 3px;
+}
+
+.banneralexsh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+  position: relative;
+}
+
+.w3-content {
+  width: 80%;
+}
+
+.w3-content img {
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid #89d1f7;
+}
+
+.w3-center {
+  position: absolute;
+  width: 85%;
+  top: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.w3-center span {
+  background: #1a7b76;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 1;
+  display: block;
+  margin: 0px 10px;
+}
+
+.w3-white {
+  background: #45c5b3 !important;
+}
+
+.arrowalexbanner {
+  position: absolute;
+  top: 130px;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kiriarrow {
+  margin-left: 5px;
+  clip-path: polygon(100% 100%, 100% 0, 0 50%);
+  top: 130px;
+  height: 20px;
+  width: 20px;
+  background: #89d1f7;
+}
+
+.kananarrow {
+  margin-right: 5px;
+  clip-path: polygon(0 100%, 100% 50%, 0 0);
+  top: 130px;
+  right: 5px;
+  height: 20px;
+  width: 20px;
+  background: #89d1f7;
+}
+
+.subbannersh {
+  max-width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f6661;
+  border: 3px solid #89d1f7;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.imagesubsh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.imagesubsh img {
+  width: 90px;
+}
+
+.titlebannersh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titlebannersh p {
+  margin: 0px;
+}
+
+.titlebannersh span {
+  margin: 0px;
+  font-weight: 600;
+}
+
+.labelendsh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: #0b4946;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 32%;
+}
+
+.labelendsh span {
+  margin: 0px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.labelendsh p {
+  color: #ffe899;
+  margin: 3px;
+}
+
+.footeralexsh {
+  width: 100%;
+  background: #0b5f61;
+  margin-top: 2em;
+}
+
+.topfootsh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sosmedsh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0px 15px 5px;
+}
+
+.buttonfootsh {
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
+}
+
+.fbfoot {
+  background: url(https://static.neptunegame.com/images/website/ico_facebook.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.mfoot {
+  background: url(https://static.neptunegame.com/images/website/ico_mail.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.igfoot {
+  background: url(https://static.neptunegame.com/images/website/ins.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.pfoot {
+  background: url(https://static.neptunegame.com/images/website/cooperation.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.gotopfootsh {
+  background: url(https://static.neptunegame.com/images/website/ico_top.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.copyrightfootsh {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.cont-spinsh {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.bendspinsh {
+  position: relative;
+  width: 320px;
+  height: 320px;
+}
+
+.boxspinsh {
+  max-width: 411px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.bendspinsh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+alex {
+  position: relative;
+  text-align: center;
+  background: url(../img/bg_spin.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 320px;
+  height: 320px;
+  display: block;
+}
+
+.setrewheel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.setrewheel img {
+  width: 85px;
+}
+
+.rewheel-1 {
+  top: 115px;
+  left: 5px;
+}
+
+.rewheel-2 {
+  top: 190px;
+  left: 35px;
+}
+
+.rewheel-3 {
+  top: 225px;
+  left: 115px;
+}
+
+.rewheel-4 {
+  top: 190px;
+  right: 35px;
+}
+
+.rewheel-5 {
+  top: 115px;
+  right: 5px;
+}
+
+.rewheel-6 {
+  top: 30px;
+  right: 45px;
+}
+
+.rewheel-7 {
+  top: 5px;
+  right: 125px;
+}
+
+.rewheel-8 {
+  top: 30px;
+  left: 35px;
+}
+
+.checkidalex {
+  background: #0000009e;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  display: none;
+}
+
+.boxchecksh {
+  margin: 300px auto;
+  max-width: 250px;
+  width: 100%;
+  background: #0f6862;
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 1px 0px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid #26b7b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0px #2b5c59;
+}
+
+.boxchecksh p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boxchecksh p i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.trueidalexsh {
+  background: #0000009e;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.boxtrueidsh {
+  margin: 300px auto;
+  max-width: 310px;
+  width: 100%;
+  background: #0f6862;
+  background-size: 100% 100%;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 2px solid #26b7b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0px #2b5c59;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.boxtrueidsh span {
+  background: url(https://static.neptunegame.com/images/website/webInfull/view_btn.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  box-shadow: 0px 0px 5px 0px #000;
+  border-radius: 50%;
+}
+
+.boxtrueidsh strong {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.boxtrueidsh input {
+  margin-bottom: 20px;
+  background-color: #2ea5a5;
+  color: #0a4c4c;
+  border: none;
+  border-radius: 5px;
+  line-height: 35px;
+  width: 80%;
+  outline: none;
+  font-size: 17px;
+  padding: 0px 10px;
+}
+
+.boxtrueidsh button {
+  background: url(https://static.neptunegame.com/images/website/webInfull/confirm_btn.png) no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  width: 130px;
+  height: 45px;
+  border: none;
+  outline: none;
+}
+
+.poprulesalexsh {
+  background: #0000009e;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 8;
+  display: none;
+}
+
+.boxrulessh {
+  margin: 250px auto;
+  max-width: 300px;
+  width: 100%;
+  background: #0f6862;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  border: 2px solid #26b7b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0px #2b5c59;
+  padding: 20px 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+.boxrulessh strong {
+  margin-bottom: 15px;
+}
+
+.boxrulessh span {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.boxrulessh span note {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.btnrulessh {
+  text-align: center;
+}
+
+.btnrulessh button {
+  background: url(https://static.neptunegame.com/images/website/webShop/exchange_ok.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 125px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.boximageidsh {
+  margin: 150px auto;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  padding: 1px 0px;
+  font-size: 17px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.boximageidsh img {
+  width: 100%;
+}
+
+.closeidguide {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -10px;
+  right: -10px;
+  background: url(https://static.neptunegame.com/images/website/webInfull/cu_btn.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.rewardalexsh {
+  background: #0000009e;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  display: none;
+}
+
+.boxrewardsh {
+  margin: 250px auto;
+  max-width: 300px;
+  width: 100%;
+  background: #0f6862;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  border: 2px solid #26b7b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0px #2b5c59;
+  padding: 20px 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+.boxrewardsh strong {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.boxrewardsh img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1em;
+}
+
+.boxrewardsh button {
+  background: url(https://static.neptunegame.com/images/website/webInfull/rechnage_btn.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+  color: #268707;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0px 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.loginalexsh {
+  background: #0000009e;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  display: none;
+}
+
+.boxloginsh {
+  margin: 250px auto;
+  max-width: 300px;
+  width: 100%;
+  background: #0f6862;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  border: 2px solid #26b7b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0px #2b5c59;
+  padding: 20px 10px;
+  position: relative;
+  font-size: 14px;
+}
+
+.boxloginsh strong {
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.buttonloginsh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%;
+  width: 100%;
+}
+
+.buttonloginsh img {
+  width: 55%;
+  border: 2px solid #26b7b2;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 6px black);
+  margin-bottom: 10px;
+}
+
+.btn-spinsh {
+  position: absolute;
+  z-index: 3;
+  top: 105px;
+  left: 36%;
+  filter: drop-shadow(1px -5px 5px #1a6c66);
+}
+
+.btn-spinsh img {
+  width: 90px;
+  height: 90px;
+}
+
+.mutermulualex {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contpengunjungalex {
+  margin: 50% auto;
+  background: url(https://dominov14.jefanyaefandchr.repl.co/1632694685707.png) no-repeat center;
+  background-size: 100%;
+  padding: 20px;
+  width: 80%
+}
+
+.formpengunjungalex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 70px
+}
+
+.formpengunjungalex input {
+  font-size: 19px;
+  line-height: 35px;
+  background: #54231a;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #ffd479;
+  outline: 0
+}
+
+.formpengunjungalex input::-webkit-input-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input::-moz-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input:-ms-input-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex input:-moz-placeholder {
+  color: #e1b57d
+}
+
+.formpengunjungalex button {
+  background: url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_ok.png) no-repeat center;
+  background-size: 100% 100%;
+  width: 96px;
+  height: 32px;
+  border: none;
+  margin-bottom: 23px
+}
+
+.closepengunjungalex {
+  position: absolute;
+  right: 26px;
+  top: 38.3%
+}
+
+.closinnih {
+  width: 43px;
+  height: 43px
+}
+
+.alertpg {
+  font-size: 11px;
+  color: #e1b57d;
+  display: none
+}
+
+.formboxsh {
+  width: 90%;
+}
+
+.formboxsh form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.itemformsh {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.itemformsh label {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.itemformsh input {
+  border: 3px solid #89d1f7;
+  border-radius: 5px;
+  background: #0b5f61;
+  color: #89d1f7;
+  font-size: 18px;
+  line-height: 35px;
+  padding: 0px 10px;
+  outline: none;
+}
+
+.tripleformsh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.tripleformsh select {
+  border: 3px solid #89d1f7;
+  border-radius: 5px;
+  background: #0b5f61;
+  color: #89d1f7;
+  font-size: 18px;
+  line-height: 35px;
+  outline: none;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.buttonformsh {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonformsh button {
+  background: url(https://dominov14.jefanyaefandchr.repl.co/1633466736773.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 40px;
+}
+
+.itemformsh input::-webkit-input-placeholder {
+  /* Edge */
+  color: #7da3b7;
+}
+
+.itemformsh input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #7da3b7;
+}
+
+.itemformsh input::placeholder {
+  color: #7da3b7;
+}
+
+.erroralexsh {
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.boxerrorsh {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxerrorsh img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.boxerrorsh strong {
+  font-size: 20px;
+  color: #ffe899;
+}
+
+.boxerrorsh p {
+  color: #94efe9;
+}
+
+.boxerrorsh button {
+  background: url(https://dominov14.jefanyaefandchr.repl.co/1633466736773.png) no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+}

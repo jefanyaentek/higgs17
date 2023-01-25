@@ -1,0 +1,31 @@
+@media only screen and (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+  .boxtrueidsh {
+          margin: 200px auto;
+  }
+  .imagesubsh {
+      align-items: center;
+  }
+  .imagesubsh img {
+          width: 70px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .titlebannersh {
+      font-size: 14px;
+  }
+  .labelendsh {
+          width: 37%;
+  }
+  .labelendsh p {
+      font-size: 15px;
+  }
+  .boxrulessh {
+      margin: 200px auto;
+  }
+  .contpengunjungalex {
+      margin: 35% auto;
+  }
+}
