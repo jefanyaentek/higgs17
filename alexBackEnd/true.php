@@ -2,7 +2,7 @@
 if(isset($_GET['playid'])) {
     $id = $_GET['playid'];
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://172.104.174.199/trueid/higgsdomino/?id=".$id);
+    curl_setopt($ch, CURLOPT_URL, "http://172.104.45.246/trueid/higgsdomino/?id=".$id);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
